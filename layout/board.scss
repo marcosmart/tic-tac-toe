@@ -1,0 +1,16 @@
+.container {
+    background: $primary-colour;
+    margin: 50px;
+    padding: 50px;
+    width: 500px;
+    height: 500px;
+    border-radius: 25px;
+
+    .title {
+        text-align: center;
+
+        span {
+            color: $white;
+        }
+    }
+}
