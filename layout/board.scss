@@ -2,8 +2,6 @@
     background: $primary-colour;
     margin: 50px;
     padding: 50px;
-    width: 500px;
-    height: 500px;
     border-radius: 25px;
 
     .title {
@@ -11,6 +9,37 @@
 
         span {
             color: $white;
+        }
+    }
+
+    .status-action {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 25px;
+        font-size: 25px;
+
+        .reset {
+            cursor: pointer;
+
+            &:hover {
+                color: $white;
+            }
+        }
+    }
+
+    .game-grid {
+        background-color: $primary-dark;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 15px;
+        margin-top: 50px;
+
+        .game-cell {
+            background-color: $primary-colour;
+            height: 200px;
+            width: 200px;
+            cursor: pointer;
         }
     }
 }

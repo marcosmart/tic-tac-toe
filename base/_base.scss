@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    transition: ease;
 }
 
 body {
@@ -9,4 +10,5 @@ body {
     font-family: sans-serif;
     justify-content: center;
     color: $black;
+    background-color: $white;
 }
