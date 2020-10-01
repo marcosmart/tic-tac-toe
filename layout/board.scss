@@ -36,10 +36,23 @@
         margin-top: 50px;
 
         .game-cell {
+            display: flex;
+            justify-content: center;
+            align-items: center;
             background-color: $primary-colour;
             height: 200px;
             width: 200px;
             cursor: pointer;
+        }
+
+        .x::after {
+            content: "×";
+            font-size: 200px;
+        }
+
+        .o::after {
+            content: "○";
+            font-size: 225px;
         }
     }
 }

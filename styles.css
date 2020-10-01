@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -46,8 +47,19 @@ body {
   margin-top: 50px;
 }
 .container .game-grid .game-cell {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #2c99d8;
   height: 200px;
   width: 200px;
   cursor: pointer;
+}
+.container .game-grid .x::after {
+  content: "×";
+  font-size: 200px;
+}
+.container .game-grid .o::after {
+  content: "○";
+  font-size: 225px;
 }
