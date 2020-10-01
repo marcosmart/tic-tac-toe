@@ -103,12 +103,13 @@ const handleReset = (e) => {
         cellDiv.classList.remove("o");
         cellDiv.classList.remove("won");
     }
+    gameIsLive = true;
 }
 
 const handleCellClick = (e) => {
     const classList = e.target.classList;
 
-    if (classList[2] === "x" || classList[2] === "o") {
+    if (!gameIsLive || classList[2] === "x" || classList[2] === "o") {
         return;
     }
 

@@ -52,6 +52,11 @@
             cursor: pointer;
         }
 
+        .x,
+        .o {
+            cursor: default;
+        }
+
         .x::after {
             content: "×";
             font-size: 200px;

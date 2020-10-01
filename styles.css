@@ -59,6 +59,10 @@ body {
   width: 200px;
   cursor: pointer;
 }
+.container .game-grid .x,
+.container .game-grid .o {
+  cursor: default;
+}
 .container .game-grid .x::after {
   content: "×";
   font-size: 200px;
