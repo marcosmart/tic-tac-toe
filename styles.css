@@ -31,6 +31,7 @@ body {
   justify-content: space-around;
   margin-top: 25px;
   font-size: 25px;
+  height: 30px;
 }
 .container .status-action .status span {
   color: #F2EBD3;
@@ -67,4 +68,7 @@ body {
   font-size: 225px;
   color: #F2EBD3;
   font-weight: bold;
+}
+.container .game-grid .won::after {
+  color: #BD022F;
 }
