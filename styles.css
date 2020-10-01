@@ -32,6 +32,9 @@ body {
   margin-top: 25px;
   font-size: 25px;
 }
+.container .status-action .status span {
+  color: #F2EBD3;
+}
 .container .status-action .reset {
   cursor: pointer;
 }
@@ -62,4 +65,6 @@ body {
 .container .game-grid .o::after {
   content: "○";
   font-size: 225px;
+  color: #F2EBD3;
+  font-weight: bold;
 }

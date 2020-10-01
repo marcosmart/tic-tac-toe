@@ -18,6 +18,12 @@
         margin-top: 25px;
         font-size: 25px;
 
+        .status {
+            span {
+                color: $white;
+            }
+        }
+
         .reset {
             cursor: pointer;
 
@@ -53,6 +59,8 @@
         .o::after {
             content: "○";
             font-size: 225px;
+            color: $white;
+            font-weight: bold;
         }
     }
 }
